@@ -9,26 +9,26 @@ import SwiftUI
 
 struct TrafficLightButton: View {
     
-    private var firstTap: Bool
-    private var closure: () -> ()
-    
-    init(firstTap: Bool, closure: @escaping () -> ()) {
-        self.firstTap = firstTap
-        self.closure = closure
-    }
+    let firstTap: Bool
+    let closure: () -> ()
         
     var body: some View {
-        ZStack {
-            Color(.blue)
-                .frame(width: 200, height: 70)
-                .clipShape(Capsule())
-                .overlay(Capsule().stroke(Color.white, lineWidth: 4))
-            Button(action: { closure() } ) {
+            Button(action: { closure() }) {
                 Text(firstTap ? "Start" : "Next")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .foregroundColor(Color.white)
-            }
-        }
+            }.frame(width: 200, height: 70)
+            .background(Color.blue)
+            .clipShape(Capsule())
+            .overlay(Capsule().stroke(Color.white, lineWidth: 4))
     }
 }
+
+struct TrafficLightButton_Previews: PreviewProvider {
+    static var previews: some View {
+        TrafficLightButton(firstTap: true, closure: {})
+    }
+}
+
+

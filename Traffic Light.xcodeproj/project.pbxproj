@@ -11,7 +11,7 @@
 		C421B32D25825FE10034AAFC /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C421B32C25825FE10034AAFC /* TrafficLight.swift */; };
 		C421B32F25825FE20034AAFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C421B32E25825FE20034AAFC /* Assets.xcassets */; };
 		C421B33225825FE20034AAFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C421B33125825FE20034AAFC /* Preview Assets.xcassets */; };
-		C4680A0825826C9000C0DCCB /* TrafficLightCollors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4680A0725826C9000C0DCCB /* TrafficLightCollors.swift */; };
+		C4680A0825826C9000C0DCCB /* TrafficLightCollor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4680A0725826C9000C0DCCB /* TrafficLightCollor.swift */; };
 		C4680A1525826E3D00C0DCCB /* TrafficLightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4680A1425826E3D00C0DCCB /* TrafficLightButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,7 +22,7 @@
 		C421B32E25825FE20034AAFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C421B33125825FE20034AAFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C421B33325825FE20034AAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4680A0725826C9000C0DCCB /* TrafficLightCollors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightCollors.swift; sourceTree = "<group>"; };
+		C4680A0725826C9000C0DCCB /* TrafficLightCollor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightCollor.swift; sourceTree = "<group>"; };
 		C4680A1425826E3D00C0DCCB /* TrafficLightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				C421B32C25825FE10034AAFC /* TrafficLight.swift */,
-				C4680A0725826C9000C0DCCB /* TrafficLightCollors.swift */,
+				C4680A0725826C9000C0DCCB /* TrafficLightCollor.swift */,
 				C4680A1425826E3D00C0DCCB /* TrafficLightButton.swift */,
 				C489772C2584DCFF00C361E7 /* Supporting Files */,
 			);
@@ -155,7 +155,7 @@
 				C421B32D25825FE10034AAFC /* TrafficLight.swift in Sources */,
 				C421B32B25825FE10034AAFC /* Traffic_LightApp.swift in Sources */,
 				C4680A1525826E3D00C0DCCB /* TrafficLightButton.swift in Sources */,
-				C4680A0825826C9000C0DCCB /* TrafficLightCollors.swift in Sources */,
+				C4680A0825826C9000C0DCCB /* TrafficLightCollor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

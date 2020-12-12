@@ -30,9 +30,9 @@ struct TrafficLight: View {
             Color.black
                 .ignoresSafeArea()
             VStack {
-                TrafficLightCollors(redOpacity: redOpacity,
-                                    yellowOpacity: yellowOpacity,
-                                    greenOpacity: greenOpacity)
+                TrafficLightCollor(opacity: redOpacity, color: .red)
+                TrafficLightCollor(opacity: yellowOpacity, color: .yellow)
+                TrafficLightCollor(opacity: greenOpacity, color: .green)
                 Spacer()
                 TrafficLightButton(firstTap: firstTap, closure: buttonPressed)
             }.padding(.top, 20)
@@ -61,8 +61,6 @@ struct TrafficLight: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            TrafficLight()
-        }
+        TrafficLight()
     }
 }
